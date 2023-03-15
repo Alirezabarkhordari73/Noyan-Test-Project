@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IranFont";
+  src: url("./Fonts/IRANSansMobile_Medium.ttf");
+}
+
+@font-face{
+  font-family: "Neucha";
+  src: url("./Fonts/Neucha-Regular.ttf");
+  font-weight: lighter;
+}
+
+@font-face{
+  font-family: "Peyball";
+  src: url("./Fonts/Playball-Regular.ttf");
+  font-weight: lighter;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IranFont", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c9c9c9;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+  transition: all 0.6s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #239e5a;
+  transition: all 0.6s ease-in-out;
+}
+
+
+.Banner{
+  background-image: url("./Assets/BannerBackGroung.jpg"),linear-gradient(rgba(161, 161, 161, 0.829),rgba(54, 54, 54, 0.815));
+  background-blend-mode: overlay;
+  object-fit: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+.TitleBanner{
+  font-size: 3.5rem;
+  font-family: "Neucha";
+  color: #239e48;
+}
+.Title2Banner{
+  font-size: 3rem;
+  font-family: "Peyball";
+  color: #239e48;
+}
+.FooterItems{
+  width: 8%;
+  cursor: pointer;
+}
+.FooterItems:hover{
+  color: #239e61;
+  transition: all 0.3s ease-in-out;
+}
+@layer components { 
+  .menu-items-style{
+    color: #808080;
+    cursor: pointer;
+  }
+  .menu-items-style:hover{
+    color: #239e48;
+    transition: all 0.3s ease-in;
+  }
+}
+
+
