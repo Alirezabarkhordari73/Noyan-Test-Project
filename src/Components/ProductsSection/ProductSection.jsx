@@ -9,7 +9,7 @@ const ProductSection = () => {
   return (
     <div className="flex h-screen justify-start">
       <div className="w-[20%] h-full object-contain">
-        <img src={Image2} className="object-cover h-full" />
+        <img src={Image2} className="object-cover h-full" alt="" />
       </div>
       <div className="w-full flex flex-col justify-between items-start">
         <div className="h-[49%] flex justify-between items-start px-2">
@@ -40,7 +40,7 @@ const ProductSection = () => {
         <div className="w-full h-[49%] flex justify-between items-start">
           <div className="w-full h-full flex items-center justify-start gap-16">
             <div className="w-[57%]">
-              <img src={Image5} className="object-contain" />
+              <img src={Image5} className="object-contain" alt="" />
             </div>
             <div className="w-[43%] h-full flex flex-col justify-between relative">
               <div className="w-[90%]">
@@ -52,10 +52,10 @@ const ProductSection = () => {
                   مرتب سازی
                 </p>
               </div>
-
               <img
                 src={Image6}
                 className="object-contain w-[350px] absolute left-0 bottom-0"
+                alt=""
               />
             </div>
           </div>
