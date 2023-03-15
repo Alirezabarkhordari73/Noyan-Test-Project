@@ -7,11 +7,11 @@ const SliderBanner = () => {
     <div className="w-full flex justify-center items-center">
       <div className="w-[55%] h-[800px] flex justify-between items-center p-1">
         <div className="w-[10%] flex flex-col justify-center items-center gap-4">
-          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px]"></div>
-          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px]"></div>
-          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px]"></div>
-          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px]"></div>
-          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px]"></div>
+          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px] cursor-pointer hover:border-[#239e48]"></div>
+          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px] cursor-pointer hover:border-[#239e48]"></div>
+          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px] cursor-pointer hover:border-[#239e48]"></div>
+          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px] cursor-pointer hover:border-[#239e48]"></div>
+          <div class="border-[3px] border-[#292929] rounded-full w-[18px] h-[18px] cursor-pointer hover:border-[#239e48]"></div>
         </div>
         <div className="h-[800px] flex flex-col justify-center items-end p-1">
           <h1 className="TitleBanner">AutoLumo</h1>

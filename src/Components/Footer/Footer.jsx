@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="FooterItems">گالری</div>
         <div className="FooterItems">تماس با ما</div>
       </nav>
-      <div className="w-full flex justify-end items-center ml-10">
+      <div className="w-full flex justify-end items-center ml-16">
         <div className="w-[35px] h-[35px] rounded-full cursor-pointer bg-[#239e65] flex justify-center items-center">
           <MdOutlineKeyboardArrowUp
             onClick={() => ScrollToTopHandler()}
