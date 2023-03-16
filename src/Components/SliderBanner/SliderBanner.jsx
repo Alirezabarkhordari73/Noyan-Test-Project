@@ -26,7 +26,7 @@ const SliderBanner = () => {
           <h1 className="text-[2.7rem] font-bold mt-3">
             تشخیص سریع, درمان به موقع
           </h1>
-          <div className="bg-[#239e48] text-white px-3 py-2 mt-5">
+          <div className="bg-myGreen text-white px-3 py-2 mt-5">
             ظرفیت بارگذاری بیست و چهار تست متفاوت به طور همزمان از امتیازات
             دستگاهاتولومو
           </div>

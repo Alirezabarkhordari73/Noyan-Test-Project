@@ -15,9 +15,9 @@ const ProductSection = () => {
         <div className="h-[49%] flex justify-between items-start px-2">
           <div className="w-full h-full flex items-center justify-start gap-7">
             <div className="w-[35%]">
-              <div className="w-[120px] h-[10px] bg-[#239e5a] rounded-md"></div>
+              <div className="w-[120px] h-[10px] bg-myGreen rounded-md"></div>
               <h1 className="text-[2.5rem]">محصولات</h1>
-              <h3 className="text-[#239e5a] text-[1.3rem] font-bold">
+              <h3 className="text-myGreen text-[1.3rem] font-bold">
                 نویان نگین پارسیان
               </h3>
               <p className="text-[1rem] text-[#a3a3a3] mt-3">
@@ -44,7 +44,7 @@ const ProductSection = () => {
             </div>
             <div className="w-[43%] h-full flex flex-col justify-between relative">
               <div className="w-[90%]">
-                <h1 className="text-[1.7rem] text-[#239e5a] font-bold">
+                <h1 className="text-[1.7rem] text-myGreen font-bold">
                   ظرفیت دوهزار عدد RV
                 </h1>
                 <p className="text-[0.8rem] text-[#a3a3a3] mt-2">

@@ -55,7 +55,6 @@ body {
   transition: all 0.6s ease-in-out;
 }
 
-
 .Banner{
   background-image: url("./Assets/BannerBackGroung.jpg"),linear-gradient(rgba(161, 161, 161, 0.829),rgba(54, 54, 54, 0.815));
   background-blend-mode: overlay;
@@ -64,6 +63,29 @@ body {
   width: 100%;
   min-height: 100vh;
   background-repeat: no-repeat;
+  position: relative;
+}
+.menuActive{
+  width: 100%;
+  height: 100vh;
+  background-color: #041409e0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  transition: all 0.1s ease-in-out;
+  opacity: 1;
+}
+.menuDeative{
+  width: 100%;
+  height: 100vh;
+  background-color: #041409e0;
+  position: fixed;
+  left: -100vw;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.1s ease-in-out;
+  opacity: 0;
 }
 .TitleBanner{
   font-size: 3.5rem;
@@ -91,6 +113,15 @@ body {
   .menu-items-style:hover{
     color: #239e48;
     transition: all 0.3s ease-in;
+  }
+  .activemenu-items-style{
+    color: #cacaca;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .activemenu-items-style:hover{
+    color: #239e48;
+    transition: all 0.2s ease-in;
   }
 }
 
