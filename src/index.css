@@ -56,7 +56,7 @@ body {
 }
 
 .Banner{
-  background-image: url("./Assets/BannerBackGroung.jpg"),linear-gradient(rgba(161, 161, 161, 0.829),rgba(54, 54, 54, 0.815));
+  background-image: url("./Assets/BannerBackGroung.jpg"),linear-gradient(rgba(136, 136, 136, 0.89),rgba(29, 29, 29, 0.76));
   background-blend-mode: overlay;
   object-fit: cover;
   background-size: cover;
