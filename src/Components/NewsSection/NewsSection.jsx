@@ -6,10 +6,10 @@ import MapImage from "../../Assets/NewsMapImage.png";
 const NewsSection = () => {
   return (
     <div className="h-screen flex justify-start items-start">
-      <div className="h-full w-[60%]">
+      <div className="h-full w-[40%] lg:w-[65%]">
         <img src={MapImage} className="object-cover h-full" alt="map" />
       </div>
-      <div className="w-1/2 h-full bg-[#1d1d1d] flex justify-start items-center">
+      <div className="w-[60%] lg:w-[45%] h-full bg-[#1d1d1d] mt-3 lg:mt-0 flex justify-start items-start lg:items-center">
         <div className="w-[60%] p-1 mr-16">
           <div className="w-[120px] h-[10px] bg-[#239e5a] rounded-sm" />
           <h1 className="text-white text-[2.5rem] mt-4">اخبار</h1>
