@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <div className="flex h-[690px] justify-start items-start">
       <div className="w-[55%] lg:w-[65%] h-full">
-        <img src={NoyanImage} className="object-cover h-full" alt="map" />
+        <img src={NoyanImage} className="w-full h-full bg-contain" alt="map" />
       </div>
       <div className="w-[40%] lg:w-[45%] h-full flex justify-start items-center">
         <div className="w-full lg:w-[70%] p-1 mr-8 lg:mr-16">
